@@ -2,7 +2,7 @@ const board = document.querySelector(`.board`);
 
 // console.log(document);
 
-let number = 500;
+let number = 816;
 
 const randomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
 const randomColor = () => `rgb(${randomNumber(0, 255)}, ${randomNumber(0, 255)}, ${randomNumber(0, 255)})`;
