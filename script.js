@@ -5,7 +5,7 @@ const board = document.querySelector(`.board`);
 let number = 500;
 
 const randomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
-const randomColor = function() `rgb(${randomNumber(0, 255)}, ${randomNumber(0, 255)}, ${randomNumber(0, 255)})`;
+const randomColor = () => `rgb(${randomNumber(0, 255)}, ${randomNumber(0, 255)}, ${randomNumber(0, 255)})`;
 
 for(let i = 0; i < number; i++){
     let div = document.createElement(`div`);
